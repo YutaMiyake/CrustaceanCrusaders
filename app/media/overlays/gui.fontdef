@@ -1,0 +1,33 @@
+
+StarWars
+{
+	type 		truetype
+	source 		solo5.ttf
+	size 		16
+	resolution 	96
+}
+
+Minecrafter3
+{
+	type 		truetype
+	source 		Minecrafter3.ttf
+	size 		50
+	resolution 	96
+}
+
+solo5
+{
+	type truetype
+	source solo5.ttf
+	size 50
+	resolution 96
+}
+
+doom
+{
+	type truetype
+	source doomright.ttf
+	size 50
+	resolution 96
+}
+

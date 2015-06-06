@@ -1,0 +1,570 @@
+GUI/Menu
+{
+	zorder 500
+	container Panel(GUI/Menu/frame)
+	{
+		
+		metrics_mode pixels
+		material GUI/Menu/bgtext
+		tiling 0 3 3
+		left 0
+		top 0
+
+		container Panel(GUI/Menu/title)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			top -350
+			
+			element TextArea(GUI/Menu/titleC1)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 160
+				left -190
+				char_height	100
+				caption C
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/Menu/titleC2)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 100
+				left -190
+				char_height	100
+				caption C
+				colour 0.1 0.1 0.8
+			}
+			element TextArea(GUI/Menu/title1)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 100
+				left -150
+				char_height	100
+				caption rustacean
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/Menu/title2)
+			{
+			
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 160
+				left -150
+				char_height	100
+				caption rusader
+				colour 0.1 0.1 0.8
+			}
+			element TextArea(GUI/Menu/Team)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				top 220
+				left -190
+				horz_align 	center
+				caption 	Team Lobster Knife Fight
+				char_height	30
+				colour 		0.5 0.5 0.5
+			}
+
+		}
+
+		container BorderPanel(GUI/Menu/menu)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			height 340
+			width 500
+			top -50
+			left -190
+
+			element TextArea(GUI/Menu/start)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				caption 	Normal Mode
+				top 0
+				height 50
+				char_height	90
+				colour_top 0.5 0.5 0.5
+				colour_bottom 0.1 0.1 0.1
+			}
+			element TextArea(GUI/Menu/challenge)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				top 100
+				// previous top 180
+				height 100
+				caption 	Challenge Mode
+				char_height	90
+				colour_top 0.5 0.5 0.5
+				colour_bottom 0.1 0.1 0.1
+			}
+			element TextArea(GUI/Menu/versus)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				top 200
+				// previous top 180
+				height 100
+				caption 	VS Mode
+				char_height	90
+				colour_top 0.5 0.5 0.5
+				colour_bottom 0.1 0.1 0.1
+			}
+			element TextArea(GUI/Menu/instructions)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				top 300
+				// previous top 180
+				height 100
+				caption 	Instructions
+				char_height	90
+				colour_top 0.5 0.5 0.5
+				colour_bottom 0.1 0.1 0.1
+			}
+		}
+
+		container Panel(GUI/Menu/logo)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			height 240
+			width 300
+			top -350
+			left -500
+
+			material GUI/Menu/lobster
+
+			
+		}
+		container Panel(GUI/Menu/logo2)
+		{
+			metrics_mode pixels
+			vert_align center
+			horz_align center
+			height 240
+			width 300
+			top -350
+			left 200
+
+			material GUI/Menu/reverselobster
+
+			
+		}
+
+	}
+}
+GUI/Hearts
+{
+	zorder 500
+	container BorderPanel(GUI/Hearts/heartBlock)
+	{
+		metrics_mode pixels
+		left 0
+		top 5
+		width 250
+		height 30
+
+		element TextArea(GUI/Hearts/player)
+		{
+			metrics_mode pixels
+			font_name 	Minecrafter3
+			top 30
+			left 20
+			char_height	50
+			caption Player1
+			colour 0.6 0.2 0.6
+		}
+    	container BorderPanel(GUI/Hearts/heart0)
+		{
+			metrics_mode pixels
+			vert_align left
+			top 5
+			left 150
+			width 50
+			height 70
+			material GUI/Hearts/heartText
+		}
+		container BorderPanel(GUI/Hearts/heart1)
+		{
+			metrics_mode pixels
+			vert_align left
+			top 5
+			left 190
+			width 50
+			height 70
+			material GUI/Hearts/heartText
+		}
+
+    	container BorderPanel(GUI/Hearts/heart2)
+		{
+			metrics_mode pixels
+			vert_align left
+			top 5
+			left 230
+			width 50
+			height 70
+			material GUI/Hearts/heartText
+		}
+
+	}
+}
+GUI/Hearts2
+{
+	zorder 500
+	container BorderPanel(GUI/Hearts2/heartBlock)
+	{
+		metrics_mode pixels
+		left 0
+		top 50
+		width 250
+		height 30
+	element TextArea(GUI/Hearts2/player)
+		{
+			metrics_mode pixels
+			font_name 	Minecrafter3
+			top 30
+			left 20
+			char_height	50
+			caption Player2
+			colour 0.6 0.2 0.6
+		}
+    	container BorderPanel(GUI/Hearts2/heart0)
+		{
+			metrics_mode pixels
+			vert_align left
+			top 5
+			left 150
+			width 50
+			height 70
+			material GUI/Hearts/heartText
+		}
+		container BorderPanel(GUI/Hearts2/heart1)
+		{
+			metrics_mode pixels
+			vert_align left
+			top 5
+			left 190
+			width 50
+			height 70
+			material GUI/Hearts/heartText
+		}
+
+    	container BorderPanel(GUI/Hearts2/heart2)
+		{
+			metrics_mode pixels
+			vert_align left
+			top 5
+			left 230
+			width 50
+			height 70
+			material GUI/Hearts/heartText
+		}
+
+	}
+}
+GUI/imenu
+{
+	zorder 500
+	container Panel(GUI/imenu/frame)
+	{
+		metrics_mode pixels
+		material GUI/Menu/bgtext
+		tiling 0 3 3
+		left 0
+		top 0
+
+		container Panel(GUI/imenu/title)
+		{
+			metrics_mode pixels
+
+			element TextArea(GUI/imenu/titleC1)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 50
+				left 50
+				char_height	100
+				caption Instructions
+				colour 0.3 0.2 0.6
+			}
+			element TextArea(GUI/imenu/movement)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 150
+				left 100
+				char_height	80
+				caption Movement: W (forward) S (backward) 
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/imenu/attack)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 250
+				left 100
+				char_height	80
+				caption Fire: SPACE / LMB
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/imenu/camera)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 350
+				left 100
+				char_height	80
+				caption CAMERA: A/D OR RMB (held down)
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/imenu/goal_title)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 450
+				left 50
+				char_height	100
+				caption GOAL
+				colour 0.1 0.8 0.1
+			}
+			element TextArea(GUI/imenu/goal1)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 550
+				left 100
+				char_height	80
+				caption Blast through to the exit
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/imenu/goal2)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 600
+				left 100
+				char_height	80
+				caption and GET TO THE SHIP!
+				colour 0.8 0.1 0.1
+			}
+			element TextArea(GUI/imenu/return)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				horz_align center
+				top 700
+				left 60
+				char_height	50
+				caption Press Enter to return
+				colour 0.8 0.8 0.8
+			}
+		}
+	}
+}
+
+GUI/vsmenu
+{
+	zorder 500
+	container Panel(GUI/vsmenu/frame)
+	{
+		metrics_mode pixels
+		material GUI/Menu/bgtext
+		tiling 0 3 3
+		left 0
+		top 0
+
+		container Panel(GUI/vsmenu/items)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			height 200
+			width 500
+			left -300
+			top -100
+
+			element TextArea(GUI/vsmenu/normal)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				caption 	Normal Mode
+				top 0
+				height 50
+				char_height	90
+				colour_top 0.5 0.5 0.5
+				colour_bottom 0.1 0.1 0.1
+			}
+			element TextArea(GUI/vsmenu/challenge)
+			{
+				metrics_mode pixels
+				font_name 	Minecrafter3
+				top 100
+				// previous top 180
+				height 100
+				caption 	Challenge Mode
+				char_height	90
+				colour_top 0.5 0.5 0.5
+				colour_bottom 0.1 0.1 0.1
+			}
+		}
+	}
+}
+
+GUI/Weapons
+{
+	zorder 500
+	container BorderPanel(GUI/Weapons/weaponBlock)
+	{
+		metrics_mode pixels
+		horz_align center
+		vert_align bottom
+		left -25
+		top -100
+		width  50
+		height 50
+		material GUI/Weapons/frame
+
+    	container BorderPanel(GUI/Weapons/fire)
+		{
+			metrics_mode pixels
+			top 5
+			left 5
+			width 40
+			height 40
+			material GUI/Weapons/fireText
+		}
+	}
+}
+GUI/Target
+{
+	zorder 500
+	container BorderPanel(GUI/Target/frame)
+	{
+		metrics_mode pixels
+		horz_align center
+		vert_align center
+		width  50
+		height 50
+		left -25
+		top 25
+		material GUI/Target/target
+	}
+}
+GUI/Score
+{
+	zorder 500
+	container BorderPanel(GUI/Score/frame)
+	{
+		metrics_mode pixels
+		horz_align left
+		vert_align bottom
+		left 5
+		top -60
+		width  200
+		height 50
+		material GUI/Weapons/frame
+
+		element TextArea(GUI/Score/score)
+		{
+			metrics_mode pixels
+
+			font_name 	doom
+			horz_align left
+			vert_align center
+			top -30
+			left 10
+			caption 	0
+			char_height	50
+			colour_top 1 1 1
+			colour_bottom 1 1 1
+		}
+	}
+}
+GUI/Gameover
+{
+	zorder 500
+	container BorderPanel(GUI/Gameover/frame)
+	{
+		metrics_mode pixels
+
+		element TextArea(GUI/Gameover/text)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			left -270
+			top -50
+			font_name 	Minecrafter3
+			caption 	GAME OVER
+			char_height	150
+			colour_top 0.5 0.5 0.5
+			colour_bottom 0.1 0.1 0.1
+		}
+	}
+}
+GUI/Winner
+{
+	zorder 500
+	container BorderPanel(GUI/Winner/frame)
+	{
+		metrics_mode pixels
+
+		element TextArea(GUI/Winner/text)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			left -200
+			top -50
+			font_name 	Minecrafter3
+			caption 	Player1 Wins
+			char_height	100
+			colour_top 0.2 0.2 0.8
+			colour_bottom 0.8 0.2 0.2
+		}
+	}
+}
+
+GUI/Victory
+{
+	zorder 500
+	container BorderPanel(GUI/Victory/frame)
+	{
+		metrics_mode pixels
+
+		element TextArea(GUI/Victory/text)
+		{
+			metrics_mode pixels
+			horz_align center
+			vert_align center
+			left -270
+			top -50
+			font_name 	doom
+			caption 	YAY YOU DID IT!
+			char_height	150
+			colour_top 0.7 0.2 0.1
+			colour_bottom 0.2 0.0 0.0
+		}
+	}
+}
+
