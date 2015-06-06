@@ -8,27 +8,26 @@ Crustacean Crusaders is a 3D shooting game which is created in python with pytho
 * challenge mode (death match)
 
 ## Requirements
-### OS
 * ubuntu 14.04 
 * python 2.7 
 
-You can choose one of the two ways to download. One requires each library to be downloaded separately. The other way is simple, which needs only to get the stand-alone program within which every necessary library is in.
+You can choose one of the two ways to prime this game. One requires each files to be downloaded separately. The other way is simple, which needs only to get the stand-alone program within which every necessary libraries and source codes are in.
 
-### 1. For separate files
+### 1. 
 * python-ogre 1.7 (read "Good" way at http://goo.gl/OoOJtC)
 * pygame (sudo apt-get install python-pygame)
 * src (from this GitHub repository)
 
-### 2. For stand-alone program
-* app (from this GitHub repository)
+### 2. 
+* app (https://goo.gl/OLv3Ac)
 
 ## Usage
-### 1. For separate files
+### 1. 
 Run:  
 ```bash
 $ python main.py (suppose the current directory is src folder)
 ```
-### 2. For stand-alone program
+### 2. 
 * Simply click the executable file, called CrustaceanCrusaders, in app directory. Or you can run the program from the comand line.
 Run:  
 ```bash
