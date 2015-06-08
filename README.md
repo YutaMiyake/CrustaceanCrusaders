@@ -8,10 +8,11 @@ Crustacean Crusaders is a 3D shooting game which is created in python with pytho
 * challenge mode (death match)
 
 ## Requirements
+### Minimum Prerequisites
 * ubuntu 14.04 
 * python 2.7 
 
-You can choose one of the two ways to prime this game. One requires source codes and each libraries to be downloaded separately. The other way needs only to get the stand-alone program within which every necessary files are in.
+After you setup minimum requirements, you can choose one of the two ways to prime this game. One requires source codes and each libraries to be downloaded separately. The other way needs only to get the stand-alone program within which every necessary files are placed.
 
 ### 1. Source codes
 * python-ogre 1.7 (read "Good" way at http://goo.gl/OoOJtC)
