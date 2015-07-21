@@ -1,11 +1,17 @@
 # Crustacean Crusaders
 Crustacean Crusaders is a 3D shooting game which is created in python with python-ogre as the final project of a CS course. 
 
-## Features
+## Description
 * ninja vs robots (player vs CPU)
 * ninja vs ninja (player vs player)
 * normal mode (trying to reach the goal)
 * challenge mode (death match)
+
+## Screenshots
+![Alt menu](/screenshots/screenshot1.png "Menu")
+![Alt vs mode](/screenshots/screenshot2.png "VS mode")
+![Alt menu](/screenshots/screenshot3.png "Robot")
+![Alt vs mode](/screenshots/screenshot4.png "Item")
 
 ## Requirements
 ### Minimum Prerequisites
@@ -35,13 +41,10 @@ Run:
 $ ./CrustaceanCrusaders (suppose the current directory is app folder)
 ```
 
-## Screenshots
-![Alt menu](/screenshots/screenshot1.png "Menu")
-![Alt vs mode](/screenshots/screenshot2.png "VS mode")
-![Alt menu](/screenshots/screenshot3.png "Robot")
-![Alt vs mode](/screenshots/screenshot4.png "Item")
+## Licence
+* MIT License
 
-## Credits
+## Authors
 Team Lobster Knife Fight:
 * Glen-Andrew Beardsley
 * Jeremiah Berns
