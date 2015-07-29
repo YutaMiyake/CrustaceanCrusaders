@@ -26,7 +26,7 @@ After you setup minimum requirements, you can choose one of the two ways to prim
 * src (from this GitHub repository)
 
 ### 2. Stand-alone app
-* app (https://goo.gl/OLv3Ac)
+* app (from this GitHub repository)
 
 ## Usage
 ### 1. Source codes
